@@ -10,26 +10,26 @@ import DesktopFive from "pages/DesktopFive";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
-    { path: "dhiwise-dashboard", element: <Home /> },
+    { path: "/dhiwise-dashboard", element: <Home /> },
     { path: "*", element: <NotFound /> },
     {
       path: "/",
       element: <DesktopOne />,
     },
     {
-      path: "desktoptwo",
+      path: "/desktoptwo",
       element: <DesktopTwo />,
     },
     {
-      path: "desktopthree",
+      path: "/desktopthree",
       element: <DesktopThree />,
     },
     {
-      path: "desktopfour",
+      path: "/desktopfour",
       element: <DesktopFour />,
     },
     {
-      path: "desktopfive",
+      path: "/desktopfive",
       element: <DesktopFive />,
     },
   ]);
